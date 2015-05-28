@@ -19,6 +19,12 @@
     }
 }
 
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .sectionPic{
+        visibility: hidden;
+    }
+}
+
 /* SECTIONS */
 .standardSection{
     padding: 3%;
@@ -26,7 +32,16 @@
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.42), 0px 0px 1px rgba(0, 0, 0, 0.12), 0px -1px 2px rgba(14, 60, 86, 0.1) inset;
 }
 
-
+/* Can I combine the following 2 media queries? */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .standardSection table{
+        display: none;
+    }
+    /* This below is a piss-poor way of doing it but is it quick, note to self, find alternatve quick fix */
+    .mobileStandardSection table{
+        display: initial;
+    }
+}
 @media (max-width: 600px){
     .standardSection table{
         display: none;
@@ -35,7 +50,6 @@
     .mobileStandardSection table{
         display: initial;
     }
-
 }
 @media (min-width: 601px){
     .standardSection table{
