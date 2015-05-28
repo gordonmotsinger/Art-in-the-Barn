@@ -25,7 +25,7 @@
     }
 }
 body {
-    background-color: black;
+    background-color: #D2DCDD !important;
     background-image: url("logo.jpg") !important;
     background-repeat: no-repeat;
     background-attachment: fixed;
@@ -76,3 +76,5 @@ body {
         display: none;
     }
 }
+
+/* Navbar */
