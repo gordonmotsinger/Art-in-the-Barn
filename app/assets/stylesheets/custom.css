@@ -1,10 +1,11 @@
 
 /* PICTURES */
 
+/* Not ideal max height for image, especially if user has gaint screen */
 .bigLogo{
     max-width: 100%;
-    padding: 7%;
-    max-height: 100%
+    padding-top: 7%;
+    max-height: 800px;
 }
 .sectionPic{
     max-width: 30%;
