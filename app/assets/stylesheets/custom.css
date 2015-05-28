@@ -1,25 +1,48 @@
 
 /* PICTURES */
 
+/* Not ideal max height for image, especially if user has gaint screen */
 .bigLogo{
     max-width: 100%;
-    padding: 7%;
+    padding-top: 7%;
+    max-height: 800px;
 }
-
 .sectionPic{
     max-width: 30%;
+    max-width: 300px;
     max-height: 90%;
-    float: right;
-    border-radius: 110px;
+    border-radius: 50px;
+}
+@media (max-width: 600px){
+    .sectionPic{
+        visibility: hidden;
+    }
 }
 
 /* SECTIONS */
-
 .standardSection{
     padding: 3%;
     margin: 15px;
     box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.42), 0px 0px 1px rgba(0, 0, 0, 0.12), 0px -1px 2px rgba(14, 60, 86, 0.1) inset;
 }
-.textBox{
-    max-width: 50%;
+
+
+@media (max-width: 600px){
+    .standardSection table{
+        display: none;
+    }
+    /* This below is a piss-poor way of doing it but is it quick, note to self, find alternatve quick fix */
+    .mobileStandardSection table{
+        display: initial;
+    }
+
+}
+@media (min-width: 601px){
+    .standardSection table{
+        width: 100%;
+        visibility: visible;
+    }
+       .mobileStandardSection{
+        display: none;
+    }
 }
