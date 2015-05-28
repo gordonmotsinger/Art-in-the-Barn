@@ -33,7 +33,7 @@
 }
 
 /* Can I combine the following 2 media queries? */
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .mobileStandardSection{
         display: initial;
     }
