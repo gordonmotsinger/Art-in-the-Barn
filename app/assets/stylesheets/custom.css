@@ -44,7 +44,6 @@ body {
     /*height: 800px;*/
 }
 .standardSection{
-    visibility: hidden;
     padding: 3%;
     margin: 20px;
     background-color: white;
@@ -90,7 +89,7 @@ body {
 
 /* Animation */
 .bounceChevron {
-  position:fixed;
+  position:absolute;
   /*float: center;*/
   left:50%;
   bottom:20px;
