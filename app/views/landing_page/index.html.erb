@@ -2,18 +2,7 @@
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 </head>
 
-<script>
-    $(window).scroll(function() {
-        $('animate').each(function(){
-        var imagePos = $(this).offset().top;
 
-        var topOfWindow = $(window).scrollTop();
-            if (imagePos < topOfWindow+400) {
-                $(this).addClass("slideUp");
-            }
-        });
-    });
-</script>
 
 <%= render 'navbar' %>
 <body>
@@ -28,76 +17,77 @@
     </div>
 </section>
 
+<div>
+    <section class="standardSection wow fadeInUp" data-wow-delay="1s" id="Time">
+        <table>
+            <tr>
+              <td align="center">
+                    <h2>When</h2>
+                    <p>Enjoy July 3-5 at Art in the Barn!</p>
+                    <table class='table'>
+                        <thead>
+                            <th>
+                                Day
+                            </th>
+                            <th>
+                                Hours
+                            </th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Thursday</td>
+                                <td>10am-7pm</td>
+                            </tr>
+                            <tr>
+                                <td>Friday</td>
+                                <td>10am-4pm</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday</td>
+                                <td>10am-4pm</td>
+                            </tr>
+                        </tbody>
+                    </table>
+              </td>
+              <td align="center">
+                    <img class="sectionPic" src="/images/fireworks_blue.jpg">
+              </td>
+            </tr>
+        </table>
+        <div class="mobileStandardSection">
+            <center>
+                    <h2>When</h2>
+                    <p>Enjoy July 3-5 at Art in the Barn!</p>
+                    <table class='table'>
+                        <thead>
+                            <th>
+                                Day
+                            </th>
+                            <th>
+                                Hours
+                            </th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Thursday</td>
+                                <td>10am-7pm</td>
+                            </tr>
+                            <tr>
+                                <td>Friday</td>
+                                <td>10am-4pm</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday</td>
+                                <td>10am-4pm</td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </center>
+        </div>
+    </section>
+</div>
 
-<section class="standardSection animated fadeInUp" id="Time">
-    <table>
-        <tr>
-          <td align="center">
-                <h2>When</h2>
-                <p>Enjoy July 3-5 at Art in the Barn!</p>
-                <table class='table'>
-                    <thead>
-                        <th>
-                            Day
-                        </th>
-                        <th>
-                            Hours
-                        </th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Thursday</td>
-                            <td>10am-7pm</td>
-                        </tr>
-                        <tr>
-                            <td>Friday</td>
-                            <td>10am-4pm</td>
-                        </tr>
-                        <tr>
-                            <td>Saturday</td>
-                            <td>10am-4pm</td>
-                        </tr>
-                    </tbody>
-                </table>
-          </td>
-          <td align="center">
-                <img class="sectionPic" src="/images/fireworks_blue.jpg">
-          </td>
-        </tr>
-    </table>
-    <div class="mobileStandardSection">
-        <center>
-                <h2>When</h2>
-                <p>Enjoy July 3-5 at Art in the Barn!</p>
-                <table class='table'>
-                    <thead>
-                        <th>
-                            Day
-                        </th>
-                        <th>
-                            Hours
-                        </th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Thursday</td>
-                            <td>10am-7pm</td>
-                        </tr>
-                        <tr>
-                            <td>Friday</td>
-                            <td>10am-4pm</td>
-                        </tr>
-                        <tr>
-                            <td>Saturday</td>
-                            <td>10am-4pm</td>
-                        </tr>
-                    </tbody>
-                </table>
-        </center>
-    </div>
-</section>
-
-<section class="standardSection animate" id="Artists">
+<section class="standardSection wow fadeInUp" data-wow-delay="1s" id="Artists">
     <table>
       <tr>
         <td align="center">
@@ -117,7 +107,7 @@
     </div>
 </section>
 
-<section class="standardSection" id="Music">
+<section class="standardSection wow fadeInUp" data-wow-delay="1s" id="Music">
     <table>
       <tr>
         <td align="center">
@@ -137,7 +127,7 @@
     </div>
 </section>
 
-<section id="Directions" class="standardSection">
+<section id="Directions" class="standardSection wow fadeInUp" data-wow-delay="1s">
     <center>
         <h1>Directions</h1>
     </center>
@@ -157,7 +147,8 @@
             </center>
 </section>
 
-<section id="Contact_Us" class="standardSection">
+
+<section id="Contact_Us" class="standardSection wow fadeInUp" data-wow-delay="1s">
     <center>
       <h1>Contact Us</h1>
       <p><strong>Phone#</strong> 336.657.1001</p>
