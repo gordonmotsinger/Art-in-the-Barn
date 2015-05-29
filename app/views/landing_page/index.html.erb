@@ -1,10 +1,10 @@
 <head>
-<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
 </head>
 
 <script>
     $(window).scroll(function() {
-        $('standardSection').each(function(){
+        $('animate').each(function(){
         var imagePos = $(this).offset().top;
 
         var topOfWindow = $(window).scrollTop();
@@ -29,7 +29,7 @@
 </section>
 
 
-<section class="standardSection" id="Time">
+<section class="standardSection animated fadeInUp" id="Time">
     <table>
         <tr>
           <td align="center">
@@ -97,7 +97,7 @@
     </div>
 </section>
 
-<section class="standardSection" id="Artists">
+<section class="standardSection animate" id="Artists">
     <table>
       <tr>
         <td align="center">
