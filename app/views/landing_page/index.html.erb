@@ -1,78 +1,93 @@
-<%= render 'navbar' %>
+<head>
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+</head>
 
-<center>
+
+
+<%= render 'navbar' %>
+<body>
+
+<!-- <center>
     <img class="bigLogo" src="images/logo.jpg">
 </center>
-
-<section class="standardSection" id="Time">
-    <table>
-        <tr>
-          <td align="center">
-                <h2>When</h2>
-                <p>Enjoy July 3-5 at Art in the Barn!</p>
-                <table class='table'>
-                    <thead>
-                        <th>
-                            Day
-                        </th>
-                        <th>
-                            Hours
-                        </th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Thursday</td>
-                            <td>10am-7pm</td>
-                        </tr>
-                        <tr>
-                            <td>Friday</td>
-                            <td>10am-4pm</td>
-                        </tr>
-                        <tr>
-                            <td>Saturday</td>
-                            <td>10am-4pm</td>
-                        </tr>
-                    </tbody>
-                </table>
-          </td>
-          <td align="center">
-                <img class="sectionPic" src="/images/fireworks_blue.jpg">
-          </td>
-        </tr>
-    </table>
-    <div class="mobileStandardSection">
-        <center>
-                <h2>When</h2>
-                <p>Enjoy July 3-5 at Art in the Barn!</p>
-                <table class='table'>
-                    <thead>
-                        <th>
-                            Day
-                        </th>
-                        <th>
-                            Hours
-                        </th>
-                    </thead>
-                    <tbody>
-                        <tr>
-                            <td>Thursday</td>
-                            <td>10am-7pm</td>
-                        </tr>
-                        <tr>
-                            <td>Friday</td>
-                            <td>10am-4pm</td>
-                        </tr>
-                        <tr>
-                            <td>Saturday</td>
-                            <td>10am-4pm</td>
-                        </tr>
-                    </tbody>
-                </table>
-        </center>
+ -->
+<section class="blankSection">
+    <div class="bounceChevron">
+        <a href="landing_page#Time"><img src="images/chevron.png"></a>
     </div>
 </section>
 
-<section class="standardSection" id="Artists">
+<div>
+    <section class="standardSection wow fadeInUp" data-wow-delay="1s" id="Time">
+        <table>
+            <tr>
+              <td align="center">
+                    <h2>When</h2>
+                    <p>Enjoy July 3-5 at Art in the Barn!</p>
+                    <table class='table'>
+                        <thead>
+                            <th>
+                                Day
+                            </th>
+                            <th>
+                                Hours
+                            </th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Thursday</td>
+                                <td>10am-7pm</td>
+                            </tr>
+                            <tr>
+                                <td>Friday</td>
+                                <td>10am-4pm</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday</td>
+                                <td>10am-4pm</td>
+                            </tr>
+                        </tbody>
+                    </table>
+              </td>
+              <td align="center">
+                    <img class="sectionPic" src="/images/fireworks_blue.jpg">
+              </td>
+            </tr>
+        </table>
+        <div class="mobileStandardSection">
+            <center>
+                    <h2>When</h2>
+                    <p>Enjoy July 3-5 at Art in the Barn!</p>
+                    <table class='table'>
+                        <thead>
+                            <th>
+                                Day
+                            </th>
+                            <th>
+                                Hours
+                            </th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>Thursday</td>
+                                <td>10am-7pm</td>
+                            </tr>
+                            <tr>
+                                <td>Friday</td>
+                                <td>10am-4pm</td>
+                            </tr>
+                            <tr>
+                                <td>Saturday</td>
+                                <td>10am-4pm</td>
+                            </tr>
+                        </tbody>
+                    </table>
+            </center>
+        </div>
+    </section>
+</div>
+
+<section class="standardSection wow fadeInUp" data-wow-delay="1s" id="Artists">
     <table>
       <tr>
         <td align="center">
@@ -92,7 +107,7 @@
     </div>
 </section>
 
-<section class="standardSection" id="Music">
+<section class="standardSection wow fadeInUp" data-wow-delay="1s" id="Music">
     <table>
       <tr>
         <td align="center">
@@ -112,7 +127,7 @@
     </div>
 </section>
 
-<section id="Directions" class="standardSection">
+<section id="Directions" class="standardSection wow fadeInUp" data-wow-delay="1s">
     <center>
         <h1>Directions</h1>
     </center>
@@ -132,10 +147,12 @@
             </center>
 </section>
 
-<section id="Contact_Us" class="standardSection">
+
+<section id="Contact_Us" class="standardSection wow fadeInUp" data-wow-delay="1s">
     <center>
       <h1>Contact Us</h1>
       <p><strong>Phone#</strong> 336.657.1001</p>
       <p><strong>Email:</strong> motsinger.d@gmail.com</p>
     </center>
 </section>
+</body>
