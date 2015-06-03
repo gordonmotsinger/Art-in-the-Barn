@@ -15,19 +15,19 @@
     max-height: 90%;
     /*border-radius: 50px;*/
 }
-@media (max-width: 600px){
+/*@media (max-width: 600px){
     .sectionPic{
         visibility: hidden;
     }
     .bigLogo{
         max-height: 300px;
     }
-}
-@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+}*/
+/*@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .sectionPic{
         display: none;
     }
-}
+}*/
 body {
     background-color: #DDDDDD !important;
     background-image: url("logo.jpg") !important;
@@ -35,6 +35,23 @@ body {
     background-attachment: fixed;
     background-position: center;
     background-size: contain;
+}
+table{
+    width: 100%;
+}
+
+.google-maps {
+    position: relative;
+    padding-bottom: 75%; // This is the aspect ratio
+    height: 0;
+    overflow: hidden;
+}
+.google-maps iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100% !important;
+    height: 100% !important;
 }
 
 /* ======== SECTIONS ========== */
