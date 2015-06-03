@@ -3,12 +3,13 @@
 
 /* Not ideal max height for image, especially if user has gaint screen */
 .bigLogo{
-    max-width: 100%;
+    max-width: 90%%;
     padding-top: 7%;
     max-height: 800px;
 }
+
 .sectionPic{
-    padding: 3%;
+    padding: 3% !important;
     max-width: 30%;
     max-width: 300px;
     max-height: 90%;
@@ -18,10 +19,13 @@
     .sectionPic{
         visibility: hidden;
     }
+    .bigLogo{
+        max-height: 300px;
+    }
 }
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .sectionPic{
-        visibility: hidden;
+        display: none;
     }
 }
 body {
@@ -30,10 +34,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: auto 85%;
+    background-size: contain;
 }
-
-
 
 /* ======== SECTIONS ========== */
 .blankSection{
