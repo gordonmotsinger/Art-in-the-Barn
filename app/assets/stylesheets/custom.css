@@ -20,19 +20,6 @@
     }
 }
 
-/*@media (max-width: 600px){
-    .sectionPic{
-        visibility: hidden;
-    }
-    .bigLogo{
-        max-height: 300px;
-    }
-}*/
-/*@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    .sectionPic{
-        display: none;
-    }
-}*/
 body {
     background-color: #DDDDDD !important;
     background-image: url("logo.jpg") !important;
@@ -70,39 +57,6 @@ table{
     background-color: rgba(255, 255, 255, 0.87);
     border-radius: 25px;
 }
-/* Can I combine the following 2 media queries? */
-/*@media screen and (min-device-width : 320px) and (max-device-width : 480px) {
-    .mobileStandardSection{
-        display: initial;
-    }
-    .standardSection table{
-        display: none;
-    }*/
-    /* This below is a piss-poor way of doing it but is it quick, note to self, find alternatve quick fix */
-/*    .mobileStandardSection table{
-        display: initial;
-    }
-}*/
-/*@media (max-width: 600px){*/
-    /*.standardSection table{*/
-        /*display: none;*/
-    }
-    /* This below is a piss-poor way of doing it but is it quick, note to self, find alternatve quick fix */
-  /*  .mobileStandardSection table{
-        display: initial;
-    }
-}*/
-/*@media (min-width: 601px){
-    .standardSection table{
-        width: 100%;
-        visibility: visible;
-    }
-       .mobileStandardSection{
-        display: none;
-    }
-}*/
-
-
 
 /* Navbar */
 
@@ -117,8 +71,10 @@ table{
   height:50px;
   width:50px;
   -webkit-animation:bounce 1.5s infinite;
+  -moz-animation:bounce 1.5s infinite;
+  -o-animation:bounce 1.5s infinite;
+  -ms-animation:bounce 1.5s infinite;
 }
-
 @-webkit-keyframes bounce {
   0%       { bottom:5px; }
   25%, 75% { bottom:15px; }
@@ -126,6 +82,25 @@ table{
   100%     {bottom:0;}
 }
 
+@-moz-keyframes bounce {
+  0%       { bottom:5px; }
+  25%, 75% { bottom:15px; }
+  50%      { bottom:20px; }
+  100%     {bottom:0;}
+}
+
+@-o-keyframes bounce {
+  0%       { bottom:5px; }
+  25%, 75% { bottom:15px; }
+  50%      { bottom:20px; }
+  100%     {bottom:0;}
+}
+@-ms-keyframes bounce {
+  0%       { bottom:5px; }
+  25%, 75% { bottom:15px; }
+  50%      { bottom:20px; }
+  100%     {bottom:0;}
+}
 /* Add media query */
 .slideUp {
     animation-name: slideUp;
