@@ -18,11 +18,18 @@
     .hidePic{
         display: none;
     }
+    .iosBackground{
+    background: url("logo.jpg") center center no-repeat;
+    height:100%;
+    width:100%;
+    position:fixed;
+    background-size: contain;
+    }
 }
 
 body {
     background-color: #DDDDDD !important;
-    background-image: url("logo.jpg") !important;
+    /*background-image: url("logo.jpg") !important;*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
