@@ -26,7 +26,8 @@ body {
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
-    background-size: contain;
+    background-attachment: fixed !important;
+    background-size: contain !important;
 }
 table{
     width: 100%;
