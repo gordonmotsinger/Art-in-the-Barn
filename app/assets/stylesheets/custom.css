@@ -14,22 +14,68 @@
     max-height: 90%;
     /*border-radius: 50px;*/
 }
+.backgroundLogo{
+    background: url("logo.jpg") top no-repeat;
+    height:80%;
+    width:100%;
+    position:fixed;
+    background-size: contain;
+    z-index: -10;
+}
+
+
+
+
+
 @media(max-width:600px){
     .hidePic{
         display: none;
     }
-    .iosBackground{
+}
+/*    .iosBackground{
     background: url("logo.jpg") center center no-repeat;
-    height:100%;
-    width:100%;
+    height: ;
+    width: ;
     position:fixed;
-    background-size: contain;
+    }*/
+   /* .showPic{
+        display: visible;
+    }
+    .backgroundLogo{
+        background: url("logo.jpg") top no-repeat;
+        height:100%;
+        width:100%;
+        position:fixed;
+        background-size: contain;
+        z-index: -10;
     }
 }
+.backgroundLogo{*/
+    /*background-color: #DDDDDD !important;*/
+  /*  background-image: url("logo.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-attachment: fixed !important;
+    background-size: contain !important;
+}*/
+
+
+
+
+
+/*    .backgroundLogo{
+        background: url("logo.jpg") top no-repeat;
+        height:100%;
+        width:100%;
+        position:fixed;
+        background-size: contain;
+        z-index: -10;
+    }*/
 
 body {
     background-color: #DDDDDD !important;
-    /*background-image: url("logo.jpg") !important;*/
+    /*background-image: url("logo.jpg");*/
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-position: center;
