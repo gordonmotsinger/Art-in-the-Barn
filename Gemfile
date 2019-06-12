@@ -32,6 +32,8 @@ gem 'tzinfo-data', '~> 1.2019'
 
 gem 'sqlite3'
 
+gem 'gon', '~> 6.2'
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 

@@ -16,7 +16,7 @@
             <tr>
               <td align="center">
                     <h2>When</h2>
-                    <p>Enjoy July 5-7 at Art in the Barn!</p>
+                    <p>Enjoy July 3-5 at Art in the Barn!</p>
                     <table class='table'>
                         <thead>
                             <th>
@@ -117,7 +117,7 @@
     </table>
  </section>
 
-<section class="standardSection wow fadeInUp" data-wow-delay=".4s" id="Music">
+<!-- <section class="standardSection wow fadeInUp" data-wow-delay=".4s" id="Music">
     <table>
       <tr>
         <td align="center">
@@ -146,7 +146,7 @@
                 </tbody>
             </table>
 
-</section>
+</section> -->
 
 <section id="Directions" class="standardSection wow fadeInUp" data-wow-delay="0.4s">
     <center>
@@ -159,15 +159,19 @@
             <center>
                 <div class="google-maps">
                     <iframe
+                        id="google-maps-iframe"
                         width="600"
                         height="450"
                         frameborder="0" style="border:0"
-                        src="https://www.google.com/maps/embed/v1/place?key=AIzaSyD-qVE3W-IIxyuU5ix2x9_q4IijYtcvq34
-                        &q=147+Camp+Butler+Road,Glade+Valley+NC
-                        &zoom=13">
+                        src="">
                     </iframe>
                 </div>
             </center>
+  <script type="text/JavaScript">
+    var mapsURL = "https://www.google.com/maps/embed/v1/place?key=" + gon.google_maps_key + "&q=147+Camp+Butler+Road,Glade+Valley+NC&zoom=13"
+    var maps_url_element = document.getElementById("google-maps-iframe");
+    maps_url_element.src=mapsURL;
+  </script>
 </section>
 
 
