@@ -30,7 +30,7 @@ gem 'sdoc', '>= 0.4.0', group: :doc
 
 gem 'tzinfo-data', '~> 1.2019'
 
-gem 'gon', '~> 6.2'
+gem 'gon', '~> 6.4'
 
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
